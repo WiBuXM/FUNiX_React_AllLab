@@ -1,17 +1,17 @@
-import React from "react";
-import {Link} from 'react-router-dom';
+import React from 'react';
+
 function Footer(props) {
-    return (
-        <div className="footer">
+    return(
+    <div className="footer">
         <div className="container">
             <div className="row justify-content-center">             
                 <div className="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul className="list-unstyled">
-                        <li><Link to="/home">Home</Link></li>
-                        <li><Link to="/abouus">About</Link></li>
-                        <li><Link to="/menu">Menu</Link></li>
-                        <li><Link to="/contactus">Contact</Link></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
                     </ul>
                 </div>
                 <div className="col-7 col-sm-5">
@@ -46,4 +46,5 @@ function Footer(props) {
     </div>
     )
 }
-export default Footer
+
+export default Footer;
